@@ -11,7 +11,7 @@ Time spent: **11** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.7 
-  - [ ] GIF Walkthrough:  lab attack
+  - [x] GIF Walkthrough:  <img src='https://github.com/santis25/codepath_wk7_s17/blob/master/codepath_websec_w07_lab.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
   	A. Admin will upload an image, presumably given to him/her by a trusted user or popular image via social websites.
   	B. This image will contain a malicious filename.
@@ -24,7 +24,7 @@ Time spent: **11** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.1
     - Fixed in version:  4.3
-  - [ ] GIF Walkthrough: attack 2
+  - [x] GIF Walkthrough: <img src='https://github.com/santis25/codepath_wk7_s17/blob/master/codepath_websec_w07_attack02.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
   	A. Create a Post and enter the following into the field: 
 ```javascript
@@ -32,12 +32,12 @@ Time spent: **11** hours spent in total
 ```
   - [x] Affected source code: Post.php does not filter both shortcode and html well in tandem
     - [post.php](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/post.php)
-1. (Required) Title: WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+3. (Required) Title: WordPress  4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [x] Summary: Take advantage of youtube embedding to execute a XSS attack 
     - Vulnerability types: XSS
     - Tested in version: 4.1
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: attack 3
+  - [x] GIF Walkthrough: <img src='https://github.com/santis25/codepath_wk7_s17/blob/master/codepath_websec_w07_attack03.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
   	A. Create a new post, requires Contributor privelege or higher
   	B. Add this to the post: 
@@ -47,12 +47,12 @@ Time spent: **11** hours spent in total
     C. When a user visits the page xss attack occurs.
   - [x] Affected source code:
     - [media.php](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/media.php)
-1. (Optional) Title: WordPress 4.1 Broke down deletion functionality via Theme Name fallback
+4. (Optional) Title: WordPress 4.1 Broke down deletion functionality via Theme Name fallback
   - [x] Summary: Made a theme undeletable via wordpress gui
     - Vulnerability types: XSS, Linux
     - Tested in version: 4.1
     - Fixed in version: 4.8
-  - [ ] GIF Walkthrough: attack 4
+  - [x] GIF Walkthrough: <img src='https://github.com/santis25/codepath_wk7_s17/blob/master/codepath_websec_w07_attack04.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
   	A. Downloaded a theme of compatible size for my version of wordpress (looked through theme shop to find candidates)
   	B. Instead of installing from theme shop downloaded via url, guessed at the source using the theme name and the version found in the shop in step A, to obtain source https://downloads.wordpress.org/theme/twentyfifteen.1.1.zip
@@ -66,7 +66,7 @@ Time spent: **11** hours spent in total
   	J. Theme can not be deleted by wordpress admin suite.
   - [x] Affected source code:
     - [theme.php](https://core.trac.wordpress.org/browser/tags/4.1/src/wp-includes/theme.php?rev=30975)
-1. (Optional) Vulnerability Name or ID
+5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
